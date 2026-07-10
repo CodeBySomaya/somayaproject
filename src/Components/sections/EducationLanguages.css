@@ -1,0 +1,8 @@
+.education-languages{
+    display: flex;
+    gap: 30px;
+    margin-top: 80px;
+}
+.education , .languages{
+    flex: 1;
+}
