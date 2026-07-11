@@ -26,11 +26,31 @@ function Hero(){
                 View Projects
               </a>
             </div>
-            <div className='social-icons'>
-                 < FaGithub/>
-                 <FaLinkedin/>
-                 <FaEnvelope/>
-            </div>
+            <div className="social-icons">
+
+  <a
+    href="https://github.com/CodeBySomaya"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <FaGithub />
+  </a>
+
+  <a
+    href="https://www.linkedin.com/in/somaia-aziz-176a932b9"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <FaLinkedin />
+  </a>
+
+  <a
+    href="mailto:somaya12aziz@outlook.com"
+  >
+    <FaEnvelope />
+  </a>
+
+        </div>
         </div>
         <div className='hero-right'>
             <div className='image-card'>

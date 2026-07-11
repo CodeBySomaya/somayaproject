@@ -119,17 +119,19 @@
     margin-top: 30px;
 }
 
-.social-icons svg{
-    font-size: 28px;
+.social-icons a{
     color: white;
-    cursor: pointer;
+    text-decoration: none;
     transition: .3s;
 }
 
-.social-icons svg:hover{
-    color:#00d084;
+.social-icons a:hover{
+    color: #00d084;
 }
 
+.social-icons svg{
+    font-size: 28px;
+}
 
 @media (max-width:992px){
 
@@ -163,7 +165,7 @@
         justify-content:center;
     }
 
-    .social-icons{
+    .social-icons a{
         justify-content:center;
     }
 
@@ -207,7 +209,7 @@
         width:220px;
     }
 
-    .social-icons{
+    .social-icons a{
         justify-content:center;
     }
 

@@ -25,9 +25,13 @@ function Footer(){
 
         </div>
 
-        <button className="download-btn">
-          Download CV
-        </button>
+      <a
+    href="/somaya aziz (1).pdf"
+    download
+    className="download-btn"
+>
+    Download CV
+</a>
 
       </div>
 
@@ -39,12 +43,27 @@ function Footer(){
 
         <div className="social-icons">
 
-          <FaGithub />
+  <a
+    href="https://github.com/CodeBySomaya"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <FaGithub />
+  </a>
 
-          <FaLinkedin />
+  <a
+    href="https://www.linkedin.com/in/somaia-aziz-176a932b9"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <FaLinkedin />
+  </a>
 
-           <MdEmail />
-        </div>
+  <a href="mailto:somaya12aziz@outlook.com">
+    <MdEmail />
+  </a>
+
+</div>
 
       </div>
        </footer>
