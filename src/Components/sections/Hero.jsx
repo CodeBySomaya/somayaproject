@@ -15,12 +15,16 @@ function Hero(){
                applications using React and .NET.
             </p>
             <div className='hero-buttons'>
-               <button className='primary-btn'>
-                 Download CV 
-               </button>
-               <button className='secondary-btn'>
-                  View Projects
-               </button>
+                <a
+               href="/somaya aziz (1).pdf"
+               download
+               className="primary-btn"
+              >
+              Download CV
+               </a>
+               <a href="#projects" className="secondary-btn">
+                View Projects
+              </a>
             </div>
             <div className='social-icons'>
                  < FaGithub/>

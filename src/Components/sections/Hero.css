@@ -53,6 +53,9 @@
     background-color: #00d084;
     color: white;
     border: none;
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
 }
 
 .primary-btn:hover{
@@ -63,6 +66,9 @@
     background: transparent;
     border: 2px solid #00d084;
     color: #00d084;
+     display: inline-block;
+    text-decoration: none;
+    text-align: center;
 }
 
 .secondary-btn:hover{
