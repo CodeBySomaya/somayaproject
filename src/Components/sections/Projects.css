@@ -80,3 +80,71 @@
 .project-link:hover{
     color: white;
 }
+
+@media (max-width: 992px){
+
+    .projects{
+        margin: 60px 20px;
+    }
+
+    .projects h1{
+        font-size: 32px;
+    }
+
+    .projects-grid{
+        grid-template-columns: 1fr;
+        gap: 25px;
+    }
+
+    .project-content{
+        padding: 20px;
+    }
+
+    .project-content h3{
+        font-size: 20px;
+    }
+
+    .project-image{
+        height: 200px;
+    }
+
+}
+
+
+
+@media (max-width:576px){
+
+    .projects{
+        margin: 40px 15px;
+    }
+
+    .projects h1{
+        font-size: 28px;
+    }
+
+    .project-content{
+        padding: 18px;
+    }
+
+    .project-content h3{
+        font-size: 18px;
+    }
+
+    .project-content p{
+        font-size: 14px;
+    }
+
+    .project-image{
+        height: 180px;
+    }
+
+    .tech-stack{
+        gap: 8px;
+    }
+
+    .tech{
+        font-size: 11px;
+        padding: 5px 10px;
+    }
+
+}

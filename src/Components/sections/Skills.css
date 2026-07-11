@@ -40,3 +40,56 @@ gap: 20px;
     font-size: 18px;
     font-weight: 500;
 }
+
+
+@media (max-width: 992px){
+
+    .skills{
+        margin: 60px 20px;
+    }
+
+    .skills-grid{
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+    }
+
+    .skill-card{
+        padding: 25px 15px;
+    }
+
+    .skill-card svg{
+        font-size: 42px;
+    }
+
+    .skill-card h3{
+        font-size: 16px;
+    }
+
+}
+
+
+
+@media (max-width: 576px){
+
+    .skills{
+        margin: 40px 15px;
+    }
+
+    .skills-grid{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+    }
+
+    .skill-card{
+        padding: 20px 10px;
+    }
+
+    .skill-card svg{
+        font-size: 36px;
+    }
+
+    .skill-card h3{
+        font-size: 15px;
+    }
+
+}
