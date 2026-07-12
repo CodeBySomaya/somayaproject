@@ -7,9 +7,9 @@ function Navbar(){
                 <span>Somaya Aziz</span>
             </div>
             <ul className="nav-links">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Protfolio</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#projects">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     );

@@ -3,7 +3,7 @@ import { FaGithub, FaLinkedin, FaPaperPlane } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 function Footer(){
     return(
-       <footer className="footer">
+       <footer className="footer" id='contact'>
           
       <div className="footer-top">
 

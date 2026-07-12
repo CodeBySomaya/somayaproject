@@ -5,7 +5,7 @@ import { FaLinkedin } from 'react-icons/fa';
 import { FaEnvelope } from 'react-icons/fa'; 
 function Hero(){
     return(
-      <section className='hero'>
+      <section className='hero' id='home'>
         <div className='hero-left'>
             <p className='intro'>Hello, I'm</p>
             <h1>Somaya Aziz</h1>
